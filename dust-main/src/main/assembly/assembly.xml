@@ -1,0 +1,37 @@
+<assembly>
+    <id>package</id>
+    <formats>
+        <format>dir</format>
+        <format>zip</format>
+    </formats>
+    <includeBaseDirectory>false</includeBaseDirectory>
+    <fileSets>
+        <fileSet>
+            <directory>src/main/bin</directory>
+            <outputDirectory>bin</outputDirectory>
+            <filtered>true</filtered>
+            <fileMode>0777</fileMode>
+            <directoryMode>0755</directoryMode>
+        </fileSet>
+        <fileSet>
+            <directory>src/main/resources</directory>
+            <outputDirectory>/config</outputDirectory>
+            <filtered>true</filtered>
+            <includes>
+                <include>*.properties</include>
+                <include>*.xml</include>
+            </includes>
+            <excludes>
+                <exclude>**/*.xls</exclude>
+                <exclude>**/*.vm</exclude>
+            </excludes>
+        </fileSet>
+        <fileSet>
+            <directory>${project.build.directory}</directory>
+            <outputDirectory>/</outputDirectory>
+            <includes>
+                <include>*-exec.jar</include>
+            </includes>
+        </fileSet>
+    </fileSets>
+</assembly>

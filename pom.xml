@@ -173,4 +173,18 @@
         </repository>
     </repositories>
 
+
+    <distributionManagement>
+        <repository>
+            <id>ttyc-songguo7-releases</id>
+            <name>Songguo Nexus Releases Repository</name>
+            <url>http://maven.corp.songguo7.com:8360/nexus/content/repositories/releases/</url>
+        </repository>
+
+        <snapshotRepository>
+            <id>ttyc-songguo7-snapshots</id>
+            <name>Songguo Nexus Snapshots Repository</name>
+            <url>http://maven.corp.songguo7.com:8360/nexus/content/repositories/snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>

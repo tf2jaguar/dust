@@ -1,10 +1,11 @@
 package com.example.dust.error;
 
-import com.gxjiaotong.micro.core.error.ExceptionEnums;
+
+import io.github.tf2jaguar.micro.core.error.ExceptionEnums;
 
 /**
- * @author ：guodongzhang
- * @date ：Created in 2021/6/25 18:14
+ * @author ：zhanguodong
+ * @since ：Created in 2021/6/25 18:14
  */
 public enum DustErrorCodes implements ExceptionEnums {
     // 异常

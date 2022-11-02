@@ -3,9 +3,10 @@ package com.example.dust.util;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * @author ：zhang guo dong
- * @date ：Created in 2020/10/3 14:36
- * @description ：获取访问请求的ip地址工具类
+ * 获取访问请求的ip地址工具类
+ *
+ * @author ：zhangguodong
+ * @since ：2020/10/3 14:36
  */
 public class IPUtil {
 

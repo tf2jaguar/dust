@@ -5,8 +5,8 @@ import java.util.Map;
 import java.util.Objects;
 
 /**
- * @author ：guodongzhang
- * @date ：Created in 2021/6/25 18:16
+ * @author ：zhangguoong
+ * @since ：Created in 2021/6/25 18:16
  */
 public enum DeleteEnum {
     //0  1

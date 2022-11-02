@@ -7,7 +7,7 @@
     <parent>
         <artifactId>dust</artifactId>
         <groupId>com.example</groupId>
-        <version>1.0.0-RELEASE</version>
+        <version>1.1.0-SNAPSHOT</version>
     </parent>
 
     <artifactId>dust-common</artifactId>
@@ -21,7 +21,12 @@
         </dependency>
 
         <dependency>
-            <groupId>com.gxjiaotong</groupId>
+            <groupId>io.github.tf2jaguar.micro</groupId>
+            <artifactId>micro-logging</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>io.github.tf2jaguar.micro</groupId>
             <artifactId>micro-codec</artifactId>
         </dependency>
 
@@ -33,11 +38,6 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-openfeign</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-pool2</artifactId>
         </dependency>
 
         <dependency>

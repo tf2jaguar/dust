@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * 使用redisTemplate的操作实现类
  *
- * @author zhang guo dong
+ * @author zhangguodong
  */
 @Component
 public class RedisService {

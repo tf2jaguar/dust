@@ -3,11 +3,13 @@ package com.example.dust;
 import org.springframework.boot.Banner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 
 /**
  * @author ：guodongzhang
- * @date ：Created in 2021/5/20 20:56
+ * @since ： 2021/5/20 20:56
  */
+@EnableFeignClients(basePackages = {"com.example.dust.feign"})
 @SpringBootApplication
 public class DustApplication {
 
